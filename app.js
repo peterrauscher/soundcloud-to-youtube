@@ -1,7 +1,7 @@
 const { spawn } = require("child_process");
 const fs = require("fs");
 const sanitize = require("sanitize-filename");
-const playlists = require("playlists.json");
+const playlists = require("./playlists.json");
 
 function downloadSoundCloudPlaylists() {
   // Loop through each playlist URL and run the command
