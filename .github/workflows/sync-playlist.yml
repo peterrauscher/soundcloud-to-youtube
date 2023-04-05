@@ -17,7 +17,8 @@ jobs:
           python-version: "3.11.2"
       - name: Install dependencies
         run: |
-          sudo apt-get -y install lame ffmpeg
+          sudo apt update
+          sudo apt install -y lame ffmpeg
           pip install --upgrade pip
           pip install -r requirements.txt
       - name: Install yt-dlp
