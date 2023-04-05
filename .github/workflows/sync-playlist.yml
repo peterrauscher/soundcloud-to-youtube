@@ -17,7 +17,7 @@ jobs:
           python-version: "3.11.2"
       - name: Install dependencies
         run: |
-          sudo apt-get -y install lame
+          sudo apt-get -y install lame ffmpeg
           pip install --upgrade pip
           pip install -r requirements.txt
       - name: Install yt-dlp
@@ -25,3 +25,9 @@ jobs:
       - run: |
           python download.py
           python upload.py
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: "playlists.json"
+          default_author: github_actions
+          message: "Ran worklow and updated playlists.json"
+          push: true
