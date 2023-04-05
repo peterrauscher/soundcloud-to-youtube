@@ -1,0 +1,22 @@
+{
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "accept-language": "en-US,en;q=0.5",
+    "alt-used": "music.youtube.com",
+    "authorization": "SAPISIDHASH 1680704325_b1b6c048f4fbe65b711a33e39e88a2d3769316b0",
+    "connection": "keep-alive",
+    "content-encoding": "gzip",
+    "content-type": "application/json",
+    "cookie": "VISITOR_INFO1_LIVE=gOsCVEVSn3Y; PREF=tz=UTC&f6=400&f7=100; HSID=AkgjHU-juR8ZVIKov; SSID=AjsYNVfZTyEkdNGZ1; APISID=Ikb1hEYfTbSgbPTw/AAg0vysqGvSTcv09a; SAPISID=NCTUJWXGT9K5981Y/AM61RzmvElyVM1oZD; __Secure-1PAPISID=NCTUJWXGT9K5981Y/AM61RzmvElyVM1oZD; __Secure-3PAPISID=NCTUJWXGT9K5981Y/AM61RzmvElyVM1oZD; SID=TwgGUAMNcuxZfbe-HmenYHQspmRKEhacRGoTvQzViZd-9oSTzHCthTtAU7_QJZZeyQ7xqQ.; __Secure-1PSID=TwgGUAMNcuxZfbe-HmenYHQspmRKEhacRGoTvQzViZd-9oSTPotKks3IgHsGbhUMgqWd1g.; __Secure-3PSID=TwgGUAMNcuxZfbe-HmenYHQspmRKEhacRGoTvQzViZd-9oSTfZqQYgFpdRh5u-tVbmVF3g.; LOGIN_INFO=AFmmF2swRAIgM3Vhe5uFtTvI-kEH1l_icjcAq_LJitfyJUFsSKZ9hNACIHBnpHXfCqqjj6JQzp6B3HqwOvWTO5ugSIKoCtgNMqn5:QUQ3MjNmd1duNVdWejJLSVJqc3owcGZfMVY1OE1IZkJDUVUxajFzTHhoOFJaU2dNVHZWa0dGZGp4NjBVdDhzNXFRUXFQRVhmYWw3cHRSMTlLY0tkd05henNKS2FDb1lsVGxGQUZDMnc3dkJubXkxMmpWZnlfdzFIR1haTTFnVXlWTU9mcm9Kb0wwVUw2V3haYWo1WjMwSS1Wc2E4S3VzVWxB; SIDCC=AFvIBn8o7mCkpVb72Gpj6KMdCeVfkK_0HEdZlk3fWlnoq3XNtOJOCjSewQzIp7geq5UrOAIQAw; __Secure-1PSIDCC=AFvIBn8wqxvYDu9Embg84bihjAXuMqkADluwC23z_RQSEMzLqTE6o3dldWpLge9ffDDjqzYVWNU; __Secure-3PSIDCC=AFvIBn8OXyPZrVmScJ0vqUnqojupDxb01_whoX5pBXdDzhAmBwrhvZGOHk0_KC_feD0P-vnOag; YSC=NaH8yjT89lk",
+    "dnt": "1",
+    "origin": "https://music.youtube.com",
+    "referer": "https://music.youtube.com/library",
+    "te": "trailers",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+    "x-goog-authuser": "0",
+    "x-goog-visitor-id": "CgtnT3NDVkVWU24zWSihhrahBg%3D%3D",
+    "x-origin": "https://music.youtube.com",
+    "x-youtube-bootstrap-logged-in": "true",
+    "x-youtube-client-name": "67",
+    "x-youtube-client-version": "1.20230403.01.00"
+}

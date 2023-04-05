@@ -1,6 +1,10 @@
 [
   {
-    "name": "ROBLOXCORE",
-    "soundcloud_link": "https://soundcloud.com/1cyber/sets/robloxcore"
+    "name": "Hyperpop Test",
+    "path": "hyperpop-test",
+    "description": "A test playlist for Hyperpop music",
+    "soundcloud_link": "https://soundcloud.com/david-delume/sets/hyperpop-playlist",
+    "yt_music_id": "",
+    "added_songs": []
   }
 ]

@@ -2,20 +2,26 @@ name: Sync Playlists
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          node-version: 16
+          python-version: "3.11.2"
       - name: Install dependencies
-        run: npm install
-      - name: Run yt-dlp
+        run: |
+          sudo apt-get -y install lame
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Install yt-dlp
         uses: AnimMouse/setup-yt-dlp@v1
-      - run: npm start
+      - run: |
+          python download.py
+          python upload.py
